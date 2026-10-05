@@ -148,34 +148,3 @@ Esta versão é um protótipo funcional para a atividade. Em uma versão de prod
 • Relatórios financeiros.
 • Autenticação e regras de acesso.
 
-11. CRITÉRIOS DA ATIVIDADE ATENDIDOS
-
-Resolver a dor do cliente:
-Catálogo + carrinho + encomenda digital.
-
-Decisão de design:
-Web app responsivo justificado.
-
-Protótipo/telas:
-Interface completa e navegável.
-
-Repositório profissional:
-README, .gitignore e LICENSE.
-
-Segurança:
-Sem credenciais no código.
-
-Entrega:
-Estrutura pronta para GitHub.
-
-DISCIPLINA
-
-Design Profissional — Produção de Portfólio & Desenvolvimento Empresarial
-
-DOCENTE
-
-Prof. Sedenilso Antonio Machado
-
-ENTREGA
-
-05/10/2026
