@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Dona Clara — Panificadora & Empório artesanal. Encomendas, produtos e coffee breaks.">
+  <title>Dona Clara | Panificadora & Empório</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#inicio" aria-label="Dona Clara início">
+      <span class="brand-mark">DC</span>
+      <span><strong>Dona Clara</strong><small>Panificadora & Empório</small></span>
+    </a>
+    <nav class="nav" aria-label="Navegação principal">
+      <a href="#produtos">Produtos</a>
+      <a href="#encomendas">Encomendas</a>
+      <a href="#eventos">Coffee breaks</a>
+      <a href="#sobre">Nossa história</a>
+    </nav>
+    <a class="btn btn-primary nav-cta" href="#encomendas">Fazer encomenda</a>
+  </header>
+
+  <main>
+    <section id="inicio" class="hero">
+      <div class="hero-copy">
+        <span class="eyebrow">12 anos de tradição artesanal</span>
+        <h1>O sabor da nossa padaria, <em>do seu jeito.</em></h1>
+        <p>Garanta seu café da manhã, encomende bolos e tábuas de frios e planeje seu coffee break sem filas, sem caderno e sem surpresas.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#produtos">Ver produtos</a>
+          <a class="btn btn-light" href="#eventos">Quero um coffee break</a>
+        </div>
+        <div class="trust-row">
+          <span>✓ Produção artesanal</span>
+          <span>✓ Fermentação natural</span>
+          <span>✓ Encomenda organizada</span>
+        </div>
+      </div>
+      <div class="hero-card">
+        <div class="bread-art" aria-hidden="true">🥖</div>
+        <div class="hero-card-info">
+          <span>Mais pedido</span>
+          <h3>Cesta Café da Manhã</h3>
+          <p>Pães artesanais + bolo + acompanhamentos</p>
+          <strong>R$ 49,90</strong>
+        </div>
+      </div>
+    </section>
+
+    <section class="pain-section">
+      <div>
+        <span class="eyebrow">Por que mudar?</span>
+        <h2>A tradição continua. O jeito de pedir evolui.</h2>
+      </div>
+      <div class="pain-grid">
+        <article><span>01</span><h3>Chega de filas</h3><p>O cliente escolhe com antecedência e encontra o pedido pronto.</p></article>
+        <article><span>02</span><h3>Menos erros</h3><p>Detalhes de sabor, data e quantidade ficam registrados no pedido.</p></article>
+        <article><span>03</span><h3>Mais alcance</h3><p>A marca passa a ser encontrada por moradores e empresas da região.</p></article>
+      </div>
+    </section>
+
+    <section id="produtos" class="section">
+      <div class="section-heading">
+        <div><span class="eyebrow">Feito hoje, com carinho</span><h2>Escolha seus favoritos</h2></div>
+        <span class="section-note">Pedidos para retirada na loja</span>
+      </div>
+      <div id="product-grid" class="product-grid"></div>
+    </section>
+
+    <section id="encomendas" class="order-section">
+      <div class="order-panel">
+        <div>
+          <span class="eyebrow">Encomenda inteligente</span>
+          <h2>Seu pedido, organizado do começo ao fim.</h2>
+          <p>Monte seu pedido, escolha a data e deixe as informações registradas. A equipe da Dona Clara recebe tudo de forma clara para reduzir atrasos e trocas.</p>
+        </div>
+        <div class="steps">
+          <div><b>1</b><span><strong>Monte</strong> seu pedido</span></div>
+          <div><b>2</b><span><strong>Escolha</strong> retirada e horário</span></div>
+          <div><b>3</b><span><strong>Confirme</strong> seus dados</span></div>
+        </div>
+        <button class="btn btn-primary" id="open-order">Montar minha encomenda</button>
+      </div>
+      <aside class="cart-card">
+        <div class="cart-title"><h3>Seu pedido</h3><span id="cart-count">0 itens</span></div>
+        <div id="cart-items" class="cart-items"><p class="empty">Seu carrinho está vazio.</p></div>
+        <div class="cart-total"><span>Total estimado</span><strong id="cart-total">R$ 0,00</strong></div>
+        <button class="btn btn-dark full" id="checkout">Continuar pedido</button>
+      </aside>
+    </section>
+
+    <section id="eventos" class="events section">
+      <div class="event-copy">
+        <span class="eyebrow">Para empresas e celebrações</span>
+        <h2>Coffee break sem improviso.</h2>
+        <p>Solicite uma proposta para reuniões, treinamentos e eventos. A equipe recebe quantidade, data, preferências e observações em um único lugar.</p>
+        <ul>
+          <li>Cardápio artesanal personalizado</li>
+          <li>Opções de doces, salgados e pães</li>
+          <li>Atendimento para empresas da região</li>
+        </ul>
+        <a class="btn btn-primary" href="mailto:contato@donaclara.example?subject=Orçamento%20Coffee%20Break">Solicitar orçamento</a>
+      </div>
+      <div class="event-card">
+        <div class="event-top"><span>COFFEE BREAK</span><strong>sob medida</strong></div>
+        <div class="event-menu"><div>🥐 <span>Mini croissants</span></div><div>🍰 <span>Doces artesanais</span></div><div>☕ <span>Café fresco</span></div><div>🥪 <span>Salgados e sanduíches</span></div></div>
+        <small>Imagem ilustrativa — cardápio definido conforme a necessidade do evento.</small>
+      </div>
+    </section>
+
+    <section id="sobre" class="story">
+      <div class="story-visual"><span>12</span><small>anos de história</small></div>
+      <div>
+        <span class="eyebrow">Nossa história</span>
+        <h2>Feito por Clara e Roberto, para a nossa vizinhança.</h2>
+        <p>A Dona Clara nasceu de uma paixão por panificação artesanal e cresceu com a confiança dos clientes do bairro. Agora, a mesma proximidade chega ao digital.</p>
+        <p><strong>Clara</strong> cuida da produção com a equipe de padeiros e confeiteira. <strong>Roberto</strong> acompanha a gestão financeira. O novo canal organiza os pedidos sem perder o jeito familiar da casa.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div><strong>Dona Clara</strong><p>Panificadora & Empório · Tradição artesanal</p></div>
+    <div><p>Atendimento digital para pedidos e encomendas.</p><p class="copyright">Projeto acadêmico — Design Profissional 2026</p></div>
+  </footer>
+
+  <dialog id="order-dialog">
+    <form method="dialog" id="order-form" class="dialog-card">
+      <button type="button" class="close" id="close-dialog" aria-label="Fechar">×</button>
+      <span class="eyebrow">Finalizar encomenda</span>
+      <h2>Vamos preparar seu pedido.</h2>
+      <label>Nome completo<input id="customer-name" required placeholder="Ex.: João Gabriel"></label>
+      <label>Data de retirada<input id="pickup-date" type="date" required></label>
+      <label>Horário<input id="pickup-time" type="time" required></label>
+      <label>Observações<textarea id="notes" rows="3" placeholder="Alguma preferência?"></textarea></label>
+      <button class="btn btn-primary full" type="submit">Confirmar pedido</button>
+      <p class="form-note">Demonstração acadêmica: o pedido é salvo apenas no navegador.</p>
+    </form>
+  </dialog>
+
+  <div id="toast" class="toast" role="status"></div>
+  <script src="script.js"></script>
+</body>
+</html>
